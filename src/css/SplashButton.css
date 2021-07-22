@@ -1,0 +1,23 @@
+.splash-button {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.splash-button-text {
+    font-family: Gotham-Bold;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.splash-button:hover {
+    opacity: 0.5;
+    transition: ease 0.5s;
+}
