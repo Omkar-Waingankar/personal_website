@@ -3,7 +3,7 @@ import "../fonts.css"
 
 export default function SplashButton(props) {
     return (
-        <a className="splash-button" href="www.google.com" style={{
+        <a className="splash-button" href={props.link} style={{
             backgroundColor: `${props.backgroundColor}`,
             borderColor: `${props.borderColor}`,
         }}>

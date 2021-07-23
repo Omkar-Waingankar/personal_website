@@ -18,12 +18,12 @@ export default function Splash() {
               Click below to learn about the people, passions, and pastimes that mean so much to me!
               </p>
               <div className="button-tray">
-                <SplashButton borderColor="#00C8A7" backgroundColor="#E5F9F6" text="Nylas" textColor="black"/>
-                <SplashButton borderColor="#003262" backgroundColor="#EBF2F5" text="UC-Berkeley" textColor="#FDB515"/>
-                <SplashButton borderColor="#7000ff" backgroundColor="#E2CCFF" text="8VC" textColor="black"/>
-                <SplashButton borderColor="#1D3461" backgroundColor="#D6DAE2" text="Flipout" textColor="#1D3461" />
-                <SplashButton borderColor="#232f3e" backgroundColor="#F9E4CF" text="Amazon" textColor="#e47911"/>
-                <SplashButton borderColor="#006642" backgroundColor="#E3FAF2" text="Adventure" textColor="#006642"/>
+                <SplashButton link="/nylas" borderColor="#00C8A7" backgroundColor="#E5F9F6" text="Nylas" textColor="black"/>
+                <SplashButton link="/berkeley" borderColor="#003262" backgroundColor="#EBF2F5" text="UC-Berkeley" textColor="#FDB515"/>
+                <SplashButton link="/8vc" borderColor="#7000ff" backgroundColor="#E2CCFF" text="8VC" textColor="black"/>
+                <SplashButton link="/flipout" borderColor="#1D3461" backgroundColor="#D6DAE2" text="Flipout" textColor="#1D3461" />
+                <SplashButton link="/amazon" borderColor="#232f3e" backgroundColor="#F9E4CF" text="Amazon" textColor="#e47911"/>
+                <SplashButton link="/adventure" borderColor="#006642" backgroundColor="#E3FAF2" text="Adventure" textColor="#006642"/>
               </div>
               <p className="intro">Contact: omkar (dot) waingankar (at) gmail (dot) com</p>
             </div>

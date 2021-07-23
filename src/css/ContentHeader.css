@@ -1,0 +1,46 @@
+@import "../fonts.css";
+
+.header {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-text {
+    margin: 0px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header-title {
+    display: flex;
+    font-family: 'Gotham-Bold';
+    font-size: 72px;
+    margin: 0px;
+    letter-spacing: -2px;
+}
+
+.header-date {
+    display: flex;
+    font-family: 'Gotham-Bold';
+    margin: 0px;
+    font-size: 36px;
+}
+
+.header-tagline {
+    font-family: 'Gotham-Light';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin: 0px;
+    margin-bottom: 24px;
+}
+
+.header-image {
+    width: 100%;
+    margin-bottom: 24px;
+}
